@@ -1,0 +1,186 @@
+"Incident ID","Incident Date",State,"City Or County",Address,"Victims Killed","Victims Injured","Suspects Killed","Suspects Injured","Suspects Arrested",Operations
+3466724,"May 12, 2026",Nevada,"Las Vegas","9000 block of W Rochelle Ave",1,0,0,0,0,N/A
+3466710,"May 12, 2026",Texas,Dallas,"10500 block of Walnut St",1,0,0,0,0,N/A
+3466643,"May 12, 2026",Utah,Tooele,I-80,0,1,0,0,0,N/A
+3466635,"May 12, 2026",Louisiana,"New Orleans","1500 block of N Derbigny St",0,1,0,0,0,N/A
+3466612,"May 12, 2026",Arizona,Phoenix,"33500 N North Vly Pkwy",1,0,0,0,0,N/A
+3466581,"May 12, 2026",Colorado,Denver,"3200 block of W Colfax Ave",0,2,0,0,0,N/A
+3466563,"May 12, 2026",Texas,Nash,"300 Alumax Rd",2,1,0,0,0,N/A
+3466439,"May 11, 2026",Alabama,Montgomery,"1900 block of Woodrun Dr",0,1,0,0,1,N/A
+3466045,"May 11, 2026",Massachusetts,Cambridge,"Memorial Dr and River St",0,2,0,1,0,N/A
+3466423,"May 11, 2026","District of Columbia",Washington,"700 block of Taylor St NW",0,1,0,0,0,N/A
+3466421,"May 11, 2026",Indiana,Muncie,"3000 block of W Oaklyn Ave",0,0,1,0,0,N/A
+3466410,"May 11, 2026",Ohio,Columbus,"3851 East Livingston Ave",1,0,0,0,0,N/A
+3466408,"May 11, 2026",Ohio,Cleveland,"Miles Ave and E 95th St",0,1,0,0,0,N/A
+3466337,"May 11, 2026",Alabama,Prattville,"Bridge Creek Rd",0,1,0,0,0,N/A
+3466358,"May 11, 2026",Colorado,"Commerce City","60th Ave and Monaco St",0,1,0,0,0,N/A
+3466320,"May 11, 2026",Mississippi,Meridian,"3100 block of 10th Ave",0,1,0,0,0,N/A
+3466302,"May 11, 2026",Mississippi,Meridian,"2200 block of State Blvd",0,1,0,0,1,N/A
+3466258,"May 11, 2026",Missouri,"Ballwin (Ellisville)","100 block of Carmel Woods Dr",0,0,0,2,0,N/A
+3466277,"May 11, 2026",Illinois,Chicago,"9900 block of S Ewing Ave",0,3,0,0,0,N/A
+3466249,"May 11, 2026",Montana,"Columbia Falls","200 block of Dawn Dr",1,0,0,1,0,N/A
+3466241,"May 11, 2026","New York",Bronx,"Tillotson Ave and Hunter Ave",0,1,0,0,0,N/A
+3466221,"May 11, 2026",Pennsylvania,"Wilkes Barre","200 block of N Pennsylvania Ave",0,1,0,0,0,N/A
+3466205,"May 11, 2026","New York",Bronx,"3555 Bivona St",0,1,0,0,0,N/A
+3466125,"May 11, 2026","South Carolina",Hopkins,"517 Horrell Hill Rd",0,1,0,0,0,N/A
+3466080,"May 11, 2026","North Carolina",Louisburg,"1375 NC-561",0,1,0,0,0,N/A
+3465990,"May 11, 2026","Rhode Island",Providence,"Silver Spring St and Swift St",1,0,0,0,0,N/A
+3466713,"May 11, 2026",Alabama,Greenville,"Gravel Hill Rd",0,0,1,0,0,N/A
+3466701,"May 11, 2026",Alabama,Fultondale,"51 Chapel Creek Ln",0,1,0,0,0,N/A
+3466630,"May 11, 2026",Utah,"Cedar City","350 block of 400 N",0,1,0,0,0,N/A
+3466197,"May 11, 2026",Louisiana,"New Orleans","4600 block of Chef Menteur Hwy",0,1,0,0,0,N/A
+3466623,"May 11, 2026",Texas,Amarillo,"2100 block of Coulter St S",1,0,0,0,0,N/A
+3466610,"May 11, 2026",Louisiana,Shreveport,"2104 Milam St",0,0,0,0,1,N/A
+3466596,"May 11, 2026",Texas,Lubbock,"Colgate St and N University Ave",0,1,0,0,0,N/A
+3466590,"May 11, 2026",Texas,Dallas,"2500 block of Victory Ave",0,0,0,1,0,N/A
+3466586,"May 11, 2026",Texas,Houston,"8628 1/2 Long Point Rd",0,1,0,0,0,N/A
+3465944,"May 11, 2026",Illinois,Chicago,"4600 block of S Winchester Ave",0,1,0,0,0,N/A
+3466546,"May 11, 2026",Tennessee,Memphis,"40 block of E Davant Ave",0,1,0,0,0,N/A
+3466542,"May 11, 2026",Tennessee,Knoxville,"1000 block of James Ave",0,1,0,0,0,N/A
+3466534,"May 11, 2026",Tennessee,Chattanooga,"1200 Grove St",0,1,0,0,0,N/A
+3466496,"May 11, 2026",Kentucky,Louisville,"1200 block of S Hancock St",0,1,0,0,0,N/A
+3466489,"May 11, 2026",Kentucky,Louisville,"N 22nd St and Bank St",0,1,0,0,0,N/A
+3466474,"May 11, 2026",Kansas,Salina,"N 12th St and W Pacific Ave",0,0,1,0,0,N/A
+3466457,"May 11, 2026",Indiana,Indianapolis,"7300 E 56th St",0,0,0,0,1,N/A
+3466442,"May 11, 2026",Alabama,"Phenix City","905 280 Byp",1,0,0,0,1,N/A
+3466432,"May 10, 2026",Ohio,Bucyrus,"900 block of E Warren St",0,0,1,0,0,N/A
+3465796,"May 10, 2026","New Jersey",Passaic,"Monroe St",0,1,0,0,0,N/A
+3466405,"May 10, 2026",Virginia,Cascade,"5800 block of Cascade Rd",1,0,0,0,1,N/A
+3466402,"May 10, 2026",Ohio,Medina,"200 block of Abbeville Rd",0,1,0,0,1,N/A
+3465816,"May 10, 2026",Indiana,"South Bend","1300 block of Eastbrook Dr",0,1,0,0,0,N/A
+3465772,"May 10, 2026","South Dakota",Whitewood,N/A,0,1,0,0,1,N/A
+3466378,"May 10, 2026",Colorado,Thornton,"9700 block of Ogden Ct",1,0,0,0,1,N/A
+3465394,"May 10, 2026",Indiana,Indianapolis,"7000 block of E 10th St",1,0,0,0,0,N/A
+3466390,"May 10, 2026",Virginia,Roanoke,"Grand Ave NW and Forest Park Blvd NW",0,2,0,0,0,N/A
+3465818,"May 10, 2026",Indiana,Indianapolis,"7975 Red Mill Dr",1,0,0,0,1,N/A
+3466376,"May 10, 2026",Ohio,Cincinnati,"10000 block of Able Ct",0,1,0,0,0,N/A
+3466373,"May 10, 2026",Virginia,Hampton,"3000 block of Kecoughtan Rd",0,1,0,0,0,N/A
+3466370,"May 10, 2026",Ohio,Cincinnati,"McHenry Ave",0,1,0,0,1,N/A
+3466368,"May 10, 2026",Virginia,Norfolk,"800 block of East 26th St",0,0,0,0,0,N/A
+3466360,"May 10, 2026",Virginia,Portsmouth,"1500 block of Wool Ave",0,1,0,0,0,N/A
+3465737,"May 10, 2026",Texas,"Wichita Falls","2509 Sheppard Access Rd",1,1,0,0,0,N/A
+3465733,"May 10, 2026",Virginia,Chesterfield,"14300 block of Branding Iron Rd",0,1,0,0,1,N/A
+3466352,"May 10, 2026",Virginia,Hampton,"400 block of Algonquin Rd",1,1,0,0,0,N/A
+3465656,"May 10, 2026",Texas,Houston,"Forest Acres Dr and Cline Rd",0,0,0,1,0,N/A
+3465669,"May 10, 2026","New York",Brooklyn,"371 Blake Ave",1,0,0,0,0,N/A
+3466305,"May 10, 2026","New Jersey",Plainfield,"1300 block of E 3rd St",1,0,0,0,0,N/A
+3466261,"May 10, 2026",Mississippi,Laurel,"Masonite Dr",0,2,0,0,0,N/A
+3465695,"May 10, 2026",Wisconsin,Racine,"17th St and Center St",0,1,0,0,0,N/A
+3466237,"May 10, 2026",Mississippi,"Crystal Springs","112 Austin Cir",0,3,0,0,0,N/A
+3466287,"May 10, 2026",Pennsylvania,Philadelphia,"3100 block of N 10th St",0,1,0,0,0,N/A
+3465677,"May 10, 2026","New York","Corona (Queens)","73-18 Northern Blvd",0,1,0,0,0,N/A
+3466273,"May 10, 2026","New Jersey",Trenton,"322 E State St",0,3,0,0,0,N/A
+3465798,"May 10, 2026",Indiana,Muncie,"2700 block of S Walnut St",1,2,0,0,1,N/A
+3465688,"May 10, 2026","New York",Buffalo,"Delaware Ave and W Eagle St",0,1,0,0,0,N/A
+3465680,"May 10, 2026","New York",Rochester,"Unity St and Grace St",0,1,0,0,0,N/A
+3465419,"May 10, 2026",Pennsylvania,Hummelstown,"8301 Presidents Dr",0,1,0,0,0,N/A
+3465828,"May 10, 2026",Indiana,Indianapolis,"800 block of N Bosart Ave",0,1,0,0,0,N/A
+3465486,"May 10, 2026",Louisiana,Lafayette,"1845 W Pinhook Rd",1,0,0,0,1,N/A
+3466171,"May 10, 2026","New Jersey",Paterson,"230 Rosa Parks Blvd",2,5,0,0,0,N/A
+3465937,"May 10, 2026",Wisconsin,Milwaukee,"3200 block of N 21st St",0,2,0,0,0,N/A
+3465697,"May 10, 2026","New York","Riverhead (Northampton)","Topping Dr",0,0,1,0,0,N/A
+3465673,"May 10, 2026",Texas,"San Antonio","22000 Block of Stone Oak Pkwy",0,1,0,0,0,N/A
+3466167,"May 10, 2026",Michigan,Detroit,"Stout St and Wadsworth Ave",0,1,0,0,0,N/A
+3466163,"May 10, 2026",Illinois,Washington,"900 block of Mallard Way",0,0,0,1,0,N/A
+3466160,"May 10, 2026",California,Coulterville,N/A,0,1,1,0,0,N/A
+3466153,"May 10, 2026",California,"Los Angeles","W 65th Pl and Raymond Ave",0,1,0,0,0,N/A
+3465653,"May 10, 2026",Texas,"Fort Worth","6901 N Beach St",0,1,0,0,0,N/A
+3465635,"May 10, 2026",Texas,Dallas,"1200 block of Commerce St",0,0,0,1,1,N/A
+3466058,"May 10, 2026",Illinois,Princeton,"2700 block of East St",1,0,0,1,1,N/A
+3465632,"May 10, 2026",Ohio,Toledo,"2125 Parkwood Ave",0,1,0,0,0,N/A
+3465628,"May 10, 2026",Missouri,Independence,"17000 E US Hwy 40",1,0,0,0,0,N/A
+3466130,"May 10, 2026","South Carolina","North Charleston","Accabee Rd and Madden Dr",0,1,0,0,0,N/A
+3465961,"May 10, 2026","South Carolina",Columbia,"5024 Two Notch Rd",0,0,1,0,0,N/A
+3466121,"May 10, 2026","South Carolina",Sumter,"Carolina Ave",1,0,0,0,2,N/A
+3465592,"May 10, 2026",Texas,"Corpus Christi","1700 block of Ocean Dr",0,2,0,0,0,N/A
+3465582,"May 10, 2026",Tennessee,Nashville,"1000 block of Stainback Ave",0,1,0,0,1,N/A
+3466012,"May 10, 2026","North Carolina",Charlotte,"4925 Rozzelles Ferry Rd",2,0,0,0,0,N/A
+3466009,"May 10, 2026","North Carolina",Charlotte,"5300 Old Pineville Rd",0,2,0,0,1,N/A
+3466048,"May 10, 2026",Missouri,"Kansas City","31st St and Bruce R Watkins Dr",0,1,0,0,0,N/A
+3465533,"May 10, 2026",Mississippi,Meridian,"814 45th Ave",1,0,0,0,0,N/A
+3465518,"May 10, 2026",Colorado,Thornton,"9700 block of Ogden Ct",1,0,0,0,1,N/A
+3465747,"May 10, 2026",Connecticut,Willimantic,"800 block of Main St",1,0,0,0,0,N/A
+3466717,"May 10, 2026",Tennessee,Fayetteville,"Brogan Ave",0,1,0,0,0,N/A
+3466695,"May 10, 2026","South Carolina",Aiken,"Hancock Rd",0,1,0,0,0,N/A
+3465613,"May 10, 2026",Texas,"Fort Worth","4505 Miller Ave",1,1,0,0,1,N/A
+3466675,"May 10, 2026",Georgia,Athens,"Chateau Terrace",1,0,0,0,1,N/A
+3466022,"May 10, 2026","North Carolina",Durham,"5230 N Roxboro St",0,1,0,0,1,N/A
+3466007,"May 10, 2026","North Carolina",Charlotte,"100 block of N Tryon St",0,1,0,0,0,N/A
+3465709,"May 10, 2026",Massachusetts,Boston,"255 Geneva Ave",0,2,0,0,0,N/A
+3465720,"May 10, 2026",Massachusetts,Boston,"69 Kingsdale St",0,2,0,0,0,N/A
+3465976,"May 10, 2026",Florida,"Hollywood (Pembroke Park)","3990 W Hallandale Beach Blvd",1,0,0,0,0,N/A
+3465999,"May 10, 2026",Georgia,Columbus,"2300 block of 13th Ave",0,1,0,0,0,N/A
+3465992,"May 10, 2026",Georgia,Atlanta,"575 Foundry St NW",0,1,0,0,0,N/A
+3465987,"May 10, 2026",Georgia,Atlanta,"247 Moreland Ave SW",0,1,0,0,0,N/A
+3466625,"May 10, 2026",Florida,Gainesville,"NW 6th St and NW 26th Ave",1,0,0,0,0,N/A
+3465985,"May 10, 2026",Georgia,Atlanta,"3725 Princeton Lakes Pkwy",0,1,0,0,0,N/A
+3465699,"May 10, 2026","District of Columbia",Washington,"1600 block of T St SE",0,2,0,0,0,N/A
+3465803,"May 10, 2026",Texas,"San Angelo","600 block of E 44th St",1,0,0,0,0,N/A
+3465438,"May 10, 2026",Virginia,Portsmouth,"2300 block of South St",0,1,0,0,0,N/A
+3465435,"May 10, 2026",Virginia,Portsmouth,"1200 Frederick Blvd",1,0,0,0,0,N/A
+3465835,"May 10, 2026",Texas,Lubbock,"3400 block of 38th St",0,0,0,1,1,N/A
+3466234,"May 10, 2026",Maryland,Baltimore,"200 block of Marion St",0,1,0,0,1,N/A
+3465423,"May 10, 2026",Massachusetts,Boston,"Olney St and Geneva Ave",0,2,0,0,0,N/A
+3465421,"May 10, 2026",Alabama,Harvest,"1820 Nick Davis Rd",0,1,0,0,0,N/A
+3466552,"May 10, 2026",Texas,"San Antonio","12301 Blanco Rd",0,1,0,0,0,N/A
+3465409,"May 10, 2026",Illinois,Chicago,"5000 block of W Erie St",0,1,0,0,0,N/A
+3466539,"May 10, 2026",Tennessee,Knoxville,"1100 Lula Powell Dr",1,0,0,0,0,N/A
+3466532,"May 10, 2026",Tennessee,Nashville,"Lafayette St and Charles E Davis Blvd",0,1,0,0,0,N/A
+3465858,"May 10, 2026",Wisconsin,Superior,"Sixth St and Seventh Ave E",0,0,0,2,0,N/A
+3466525,"May 10, 2026","West Virginia",Charleston,"8300 block of Sissonville Dr",0,1,0,0,0,N/A
+3465589,"May 10, 2026",Kansas,Wichita,"E 1st St N and N Washington St",1,0,0,0,1,N/A
+3466459,"May 10, 2026",Michigan,Ruth,"Purdy Rd",0,1,0,0,1,N/A
+3466470,"May 10, 2026",Alabama,"Valley Head (Hammondville)","I-59 and AL-117",0,1,0,0,0,N/A
+3466427,"May 10, 2026",Alabama,Russellville,"2885 Duncan Creek Rd",1,0,0,0,1,N/A
+3465889,"May 10, 2026",Minnesota,Minneapolis,"356 Monroe St NE",0,1,0,0,0,N/A
+3465869,"May 10, 2026",Wisconsin,Milwaukee,"N 95th St and W Silver Spring Dr",0,1,0,0,0,N/A
+3466355,"May 10, 2026",Alabama,Buhl,"10000 block of Sam Jones Rd",0,1,0,0,1,N/A
+3465867,"May 10, 2026",Wisconsin,Milwaukee,"N 39th St and W Vliet St",0,1,0,0,0,N/A
+3465865,"May 10, 2026",Wisconsin,Milwaukee,"N 38th St and W Fairmount Ave",0,1,0,0,0,N/A
+3465692,"May 10, 2026",Wisconsin,Oshkosh,"177 N Washburn St",0,0,1,0,0,N/A
+3465358,"May 9, 2026",Ohio,Columbus,"5400 block of Malibu Dr",1,0,0,0,3,N/A
+3465781,"May 9, 2026",Indiana,"Michigan City (Town Of Pines)","1716 Liberty Ave",1,2,0,0,0,N/A
+3466400,"May 9, 2026",Ohio,Akron,"1019 N Main St",0,1,0,0,0,N/A
+3465767,"May 9, 2026",Minnesota,Minneapolis,"2435 Pillsbury Ave",1,0,0,0,0,N/A
+3466396,"May 9, 2026",Ohio,"New Richmond","2100 block of Ginn Rd",0,1,0,0,1,N/A
+3466387,"May 9, 2026",California,"Moreno Valley","12220 Pigeon Pass Rd",0,0,0,0,0,N/A
+3465749,"May 9, 2026",California,Victorville,"18700 block of Fifth Ave",1,0,0,0,0,N/A
+3465363,"May 9, 2026",California,Banning,"I-10 and Highland Springs Ave",0,1,0,0,0,N/A
+3465843,"May 9, 2026",Indiana,Anderson,"3000 block of N 200 W",1,0,0,0,1,N/A
+3465428,"May 9, 2026",Alabama,Montgomery,"300 block of N Decatur St",1,0,0,0,0,N/A
+3465321,"May 9, 2026",Virginia,Suffolk,"1000 block of Nansemond Pkwy",0,2,0,0,0,N/A
+3465716,"May 9, 2026",California,"Los Angeles","135 W 89th St",1,0,0,0,2,N/A
+3465706,"May 9, 2026",Massachusetts,Boston,"28 Woolson St",1,0,0,0,0,N/A
+3465368,"May 9, 2026",California,Wilmington,"614 Pacific Coast Hwy",1,1,0,0,0,N/A
+3465754,"May 9, 2026",Michigan,Muskegon,"5201 Airline Hwy",0,4,0,0,0,N/A
+3465317,"May 9, 2026",Texas,Austin,"9207 N Lamar Blvd",1,0,0,0,0,N/A
+3466316,"May 9, 2026",Missouri,Albany,"7th St",2,0,0,0,0,N/A
+3465315,"May 9, 2026",Virginia,Richmond,"E 20th St and Dinwiddie Ave",0,1,0,0,0,N/A
+3465307,"May 9, 2026",Virginia,Norfolk,"200 block of E Brambleton Ave",0,1,0,0,0,N/A
+3465305,"May 9, 2026",Kentucky,Louisville,"2700 block of Hale Ave",0,1,0,0,0,N/A
+3465295,"May 9, 2026",Kentucky,Newport,"E 10th St and Monmouth St",0,1,0,0,0,N/A
+3465279,"May 9, 2026","West Virginia","Charleston (Cross Lanes)","200 block of Pring Dr",0,1,0,0,0,N/A
+3466230,"May 9, 2026",Pennsylvania,Reading,"450 S 7th St",0,2,0,0,1,N/A
+3465229,"May 9, 2026",Illinois,Chicago,"W 28th St and S St Louis Ave",1,0,0,0,0,N/A
+3465067,"May 9, 2026",Mississippi,Wiggins,"1216 Parkway Dr",1,0,0,0,0,N/A
+3465118,"May 9, 2026",Michigan,Detroit,"10800 block of Hayes St",1,0,0,0,0,N/A
+3465684,"May 9, 2026",Michigan,Romulus,"15000 block of Mesa Way",1,1,0,0,1,N/A
+3465682,"May 9, 2026",Minnesota,"Minneapolis (Fridley)","5500 block of University Ave NE",0,1,0,0,0,N/A
+3465234,"May 9, 2026",Washington,Seattle,"8500 Lake City Way NE",1,0,0,0,0,N/A
+3465231,"May 9, 2026",Virginia,Portsmouth,"4000 Victory Blvd",0,2,0,0,0,N/A
+3466216,"May 9, 2026",Delaware,Laurel,"8000 block of Portsville Rd",0,1,0,0,0,N/A
+3465193,"May 9, 2026",Virginia,Portsmouth,"4600 block of Greenwood Dr",1,0,1,0,0,N/A
+3465444,"May 9, 2026",Louisiana,"Lake Charles","1700 block of Rena St",0,4,0,0,0,N/A
+3465666,"May 9, 2026",Texas,Houston,"Antoine Dr and West Little York Rd",0,1,0,0,1,N/A
+3465850,"May 9, 2026",California,"Palo Alto (East Palo Alto)","2300 block of Clarke Ave",0,2,0,0,1,N/A
+3465659,"May 9, 2026",Illinois,Decatur,"400 block of W Division St",0,1,0,0,0,N/A
+3465138,"May 9, 2026",Minnesota,Gibbon,"Co Hwy 2",0,1,0,0,0,N/A
+3465106,"May 9, 2026",Missouri,"Kansas City","E 4th St and Holmes St",1,0,0,0,0,N/A
+3465603,"May 9, 2026",Texas,"Fort Worth (Everman)","1821 Everman Pkwy",0,3,0,0,0,N/A
+3466119,"May 9, 2026",Illinois,Bloomington,"1000 block of Four Seasons Rd",0,1,0,0,0,N/A
+3465597,"May 9, 2026",Illinois,Rockford,"2800 block of S Main St",0,1,0,0,0,N/A
+3465386,"May 9, 2026",Ohio,Cleveland,"Kinsman Rd and E 146th St",1,0,0,0,0,N/A
+3465547,"May 9, 2026",Iowa,"Des Moines","800 block of Tuttle St",1,0,1,0,0,N/A
+3465541,"May 9, 2026",Florida,Reddick,"15000 block of NW 44th Ave Rd",0,5,0,0,0,N/A
+3466031,"May 9, 2026",Arkansas,Blytheville,"1600 block of Martin St",0,1,0,0,0,N/A
+3465536,"May 9, 2026",Arkansas,Camden,"1085 Fairview Rd SW",1,0,0,0,1,N/A

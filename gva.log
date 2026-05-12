@@ -1,0 +1,833 @@
+2026-05-11 13:51:12,473 - INFO - Starting GVA export...
+2026-05-11 13:51:12,475 - INFO - ====== WebDriver manager ======
+2026-05-11 13:51:12,702 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 13:51:12,785 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 13:51:12,809 - INFO - There is no [mac64] chromedriver "147.0.7727.117" for browser google-chrome "147.0.7727" in cache
+2026-05-11 13:51:12,816 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 13:51:12,900 - INFO - WebDriver version 147.0.7727.117 selected
+2026-05-11 13:51:12,902 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-11 13:51:12,902 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.117/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-11 13:51:12,954 - INFO - Driver downloading response is 200
+2026-05-11 13:51:13,088 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 13:51:13,447 - INFO - Driver has been saved in cache [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117]
+2026-05-11 13:51:15,690 - INFO - Loading reports page for 2026...
+2026-05-11 13:51:17,865 - INFO - Looking for export link...
+2026-05-11 13:51:17,875 - ERROR - Export failed: Could not find export link on page
+2026-05-11 13:51:17,875 - INFO - Closing browser...
+2026-05-11 13:51:17,972 - ERROR - Export failed: Could not find export link on page
+2026-05-11 13:51:38,414 - INFO - Starting GVA export...
+2026-05-11 13:51:38,420 - INFO - ====== WebDriver manager ======
+2026-05-11 13:51:38,621 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 13:51:38,662 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 13:51:38,700 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 13:51:40,125 - INFO - Loading reports page for 2022...
+2026-05-11 13:51:41,849 - INFO - Looking for export link...
+2026-05-11 13:51:41,863 - ERROR - Export failed: Could not find export link on page
+2026-05-11 13:51:41,863 - INFO - Closing browser...
+2026-05-11 13:51:41,946 - ERROR - Export failed: Could not find export link on page
+2026-05-11 14:15:14,561 - INFO - Starting GVA export...
+2026-05-11 14:15:14,561 - ERROR - Export failed: 'Namespace' object has no attribute 'start_date'
+2026-05-11 14:38:55,460 - INFO - Starting GVA export...
+2026-05-11 14:38:55,460 - ERROR - Export failed: 'Namespace' object has no attribute 'master_file'
+2026-05-11 14:39:40,916 - INFO - Starting GVA export...
+2026-05-11 14:39:40,917 - INFO - ====== WebDriver manager ======
+2026-05-11 14:39:41,280 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 14:39:41,563 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 14:39:41,591 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 14:39:43,597 - INFO - Loading reports page for /reports/last-72-hours...
+2026-05-11 14:39:45,627 - INFO - Looking for export link...
+2026-05-11 14:39:45,637 - ERROR - Export failed: Could not find export link on page
+2026-05-11 14:39:45,637 - INFO - Closing browser...
+2026-05-11 14:39:45,732 - ERROR - Export failed: Could not find export link on page
+2026-05-11 14:43:20,200 - INFO - Starting GVA export...
+2026-05-11 14:43:20,205 - INFO - ====== WebDriver manager ======
+2026-05-11 14:43:20,589 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 14:43:20,635 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 14:43:20,659 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 14:43:22,540 - INFO - Loading reports page for /reports/last-72-hours...
+2026-05-11 14:43:24,442 - INFO - Looking for export link...
+2026-05-11 14:43:34,734 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000103139ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000103131e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000102bf78d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000102c3f8b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000102c7f84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000102c3527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x00000001030f7f60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x00000001030fb744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x00000001030dce50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x00000001030fbfc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x00000001030cd828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000103120920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000103120a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000103131ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 14:43:34,738 - INFO - Closing browser...
+2026-05-11 14:43:34,838 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000103139ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000103131e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000102bf78d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000102c3f8b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000102c7f84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000102c3527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x00000001030f7f60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x00000001030fb744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x00000001030dce50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x00000001030fbfc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x00000001030cd828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000103120920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000103120a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000103131ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 14:50:37,527 - INFO - Starting GVA export...
+2026-05-11 14:50:37,528 - INFO - ====== WebDriver manager ======
+2026-05-11 14:50:37,615 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 14:50:37,670 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 14:50:37,697 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 14:50:37,699 - INFO - ====== WebDriver manager ======
+2026-05-11 14:50:37,778 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 14:50:37,804 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 14:50:37,828 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 14:50:40,218 - INFO - Loading reports page for /reports/last-72-hours...
+2026-05-11 14:50:42,244 - INFO - Looking for export link...
+2026-05-11 14:50:52,518 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101179ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000101171e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000100c378d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000100c7f8b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000100cbf84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000100c7527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000101137f60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x000000010113b744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x000000010111ce50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x000000010113bfc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x000000010110d828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000101160920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000101160a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000101171ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 14:50:52,519 - INFO - Closing browser...
+2026-05-11 14:50:52,632 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101179ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000101171e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000100c378d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000100c7f8b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000100cbf84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000100c7527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000101137f60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x000000010113b744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x000000010111ce50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x000000010113bfc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x000000010110d828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000101160920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000101160a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000101171ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 15:15:12,916 - INFO - Starting GVA export...
+2026-05-11 15:15:12,917 - INFO - ====== WebDriver manager ======
+2026-05-11 15:15:13,302 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:15:13,359 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:15:13,388 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:15:13,390 - INFO - ====== WebDriver manager ======
+2026-05-11 15:15:13,486 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:15:13,513 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:15:13,540 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:15:15,468 - INFO - Loading reports page for /reports/last-72-hours...
+2026-05-11 15:15:17,590 - INFO - Looking for export link...
+2026-05-11 15:15:27,892 - ERROR - <html xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="js wf-sourcesanspro-n4-active wf-sourcesanspro-n7-active wf-sourcesanspro-n9-active wf-sourcesanspro-i4-active wf-active"><head profile="http://www.w3.org/1999/xhtml/vocab">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" href="https://www.gunviolencearchive.org/sites/default/files/favicon.png" type="image/png">
+	<title>Standard Reports | Gun Violence Archive</title>
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@GunDeaths">
+	<meta name="twitter:creator" content="@GunDeaths">
+	<meta name="twitter:title" content="Gun Violence Archive">
+	<meta name="twitter:description" content="Near real-time tweets of American gun violence incidents. Non-profit. Non-advocacy. Just the facts." <meta="">
+	<meta property="og:image" content="https://www.gunviolencearchive.org/sites/all/themes/gva_theme/images/share-logo.jpg">
+	<style type="text/css" media="all">
+@import url("https://www.gunviolencearchive.org/modules/system/system.base.css?ta840j");
+@import url("https://www.gunviolencearchive.org/modules/system/system.menus.css?ta840j");
+@import url("https://www.gunviolencearchive.org/modules/system/system.messages.css?ta840j");
+@import url("https://www.gunviolencearchive.org/modules/system/system.theme.css?ta840j");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.gunviolencearchive.org/modules/field/theme/field.css?ta840j");
+@import url("https://www.gunviolencearchive.org/
+2026-05-11 15:15:27,894 - ERROR - Export failed: Could not find export link on page
+2026-05-11 15:15:27,894 - INFO - Closing browser...
+2026-05-11 15:15:28,018 - ERROR - Export failed: Could not find export link on page
+2026-05-11 15:15:32,773 - INFO - Starting GVA export...
+2026-05-11 15:15:32,774 - INFO - ====== WebDriver manager ======
+2026-05-11 15:15:33,010 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:15:33,053 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:15:33,080 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:15:33,082 - INFO - ====== WebDriver manager ======
+2026-05-11 15:15:33,176 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:15:33,201 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:15:33,225 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:15:34,454 - INFO - Loading reports page for /reports/last-72-hours...
+2026-05-11 15:15:36,087 - INFO - Looking for export link...
+2026-05-11 15:15:45,516 - ERROR - Export failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.138)
+Stacktrace:
+0   chromedriver                        0x0000000104f5debc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104f55e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104a1b8d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001049f436c chromedriver + 164716
+4   chromedriver                        0x0000000104a8c380 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536580
+5   chromedriver                        0x0000000104aa337c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+6   chromedriver                        0x0000000104a5927c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+7   chromedriver                        0x0000000104f1bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x0000000104f1f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000104f00e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x0000000104f1ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000104ef1828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104f44920 cxxbridge1$str$ptr + 3109540
+13  chromedriver                        0x0000000104f44a9c cxxbridge1$str$ptr + 3109920
+14  chromedriver                        0x0000000104f55ae4 cxxbridge1$str$ptr + 3179624
+15  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 15:15:45,518 - INFO - Closing browser...
+2026-05-11 15:15:45,653 - ERROR - Export failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.138)
+Stacktrace:
+0   chromedriver                        0x0000000104f5debc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104f55e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104a1b8d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001049f436c chromedriver + 164716
+4   chromedriver                        0x0000000104a8c380 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536580
+5   chromedriver                        0x0000000104aa337c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+6   chromedriver                        0x0000000104a5927c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+7   chromedriver                        0x0000000104f1bf60 cxxbridge1$str$ptr + 2943204
+8   chromedriver                        0x0000000104f1f744 cxxbridge1$str$ptr + 2957512
+9   chromedriver                        0x0000000104f00e50 cxxbridge1$str$ptr + 2832340
+10  chromedriver                        0x0000000104f1ffc4 cxxbridge1$str$ptr + 2959688
+11  chromedriver                        0x0000000104ef1828 cxxbridge1$str$ptr + 2769324
+12  chromedriver                        0x0000000104f44920 cxxbridge1$str$ptr + 3109540
+13  chromedriver                        0x0000000104f44a9c cxxbridge1$str$ptr + 3109920
+14  chromedriver                        0x0000000104f55ae4 cxxbridge1$str$ptr + 3179624
+15  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 15:16:41,319 - INFO - Starting GVA export...
+2026-05-11 15:16:41,320 - INFO - ====== WebDriver manager ======
+2026-05-11 15:16:41,667 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:16:41,717 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:16:41,745 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:16:41,747 - INFO - ====== WebDriver manager ======
+2026-05-11 15:16:41,856 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:16:41,924 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:16:41,951 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:16:44,017 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 15:16:44,254 - INFO - Looking for export link...
+2026-05-11 15:16:44,280 - ERROR - Export failed: Could not find export link on page
+2026-05-11 15:16:44,282 - INFO - Closing browser...
+2026-05-11 15:16:44,385 - ERROR - Export failed: Could not find export link on page
+2026-05-11 15:17:03,788 - INFO - Starting GVA export...
+2026-05-11 15:17:03,788 - INFO - ====== WebDriver manager ======
+2026-05-11 15:17:04,035 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:17:04,082 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:17:04,108 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:17:04,110 - INFO - ====== WebDriver manager ======
+2026-05-11 15:17:04,192 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:17:04,469 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:17:04,497 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:17:06,128 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 15:17:07,560 - INFO - Looking for export link...
+2026-05-11 15:17:07,583 - ERROR - Export failed: Could not find export link on page
+2026-05-11 15:17:07,584 - INFO - Closing browser...
+2026-05-11 15:17:07,702 - ERROR - Export failed: Could not find export link on page
+2026-05-11 15:19:19,199 - INFO - Starting GVA export...
+2026-05-11 15:19:19,203 - INFO - ====== WebDriver manager ======
+2026-05-11 15:19:19,579 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:19:19,624 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:19:19,652 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:19:19,655 - INFO - ====== WebDriver manager ======
+2026-05-11 15:19:19,767 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:19:19,793 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:19:19,820 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:19:21,887 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 15:19:22,289 - INFO - Looking for export link...
+2026-05-11 15:19:22,312 - ERROR - Export failed: Could not find export link on page
+2026-05-11 15:19:22,313 - INFO - Closing browser...
+2026-05-11 15:19:22,411 - ERROR - Export failed: Could not find export link on page
+2026-05-11 15:20:53,842 - INFO - Starting GVA export...
+2026-05-11 15:20:53,843 - INFO - ====== WebDriver manager ======
+2026-05-11 15:20:54,177 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:20:54,221 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:20:54,251 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:20:54,253 - INFO - ====== WebDriver manager ======
+2026-05-11 15:20:54,352 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:20:54,378 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 15:20:54,402 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 15:20:56,054 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 15:20:56,321 - INFO - Looking for export link...
+2026-05-11 15:21:06,549 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101089ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000101081e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000100b478d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000100b8f8b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000100bcf84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000100b8527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000101047f60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x000000010104b744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x000000010102ce50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x000000010104bfc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x000000010101d828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000101070920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000101070a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000101081ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 15:21:06,551 - INFO - Closing browser...
+2026-05-11 15:21:06,679 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101089ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000101081e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000100b478d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000100b8f8b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000100bcf84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000100b8527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000101047f60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x000000010104b744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x000000010102ce50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x000000010104bfc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x000000010101d828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000101070920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000101070a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000101081ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 20:22:10,421 - INFO - Starting GVA export...
+2026-05-11 20:22:10,424 - INFO - ====== WebDriver manager ======
+2026-05-11 20:22:19,162 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:22:19,548 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:22:19,664 - INFO - There is no [mac64] chromedriver "148.0.7778.97" for browser google-chrome "148.0.7778" in cache
+2026-05-11 20:22:19,684 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:22:20,134 - INFO - WebDriver version 148.0.7778.97 selected
+2026-05-11 20:22:20,140 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.97/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-11 20:22:20,141 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/148.0.7778.97/mac-arm64/chromedriver-mac-arm64.zip
+2026-05-11 20:22:20,308 - INFO - Driver downloading response is 200
+2026-05-11 20:22:21,393 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:22:21,668 - INFO - Driver has been saved in cache [/Users/nissim/.wdm/drivers/chromedriver/mac64/148.0.7778.97]
+2026-05-11 20:22:23,475 - INFO - patching driver executable /Users/nissim/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-05-11 20:22:27,929 - ERROR - Export failed: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+0   undetected_chromedriver             0x00000001031a0658 undetected_chromedriver + 6854232
+1   undetected_chromedriver             0x0000000103197cca undetected_chromedriver + 6819018
+2   undetected_chromedriver             0x0000000102b85a75 undetected_chromedriver + 453237
+3   undetected_chromedriver             0x0000000102bb4dac undetected_chromedriver + 646572
+4   undetected_chromedriver             0x0000000102bb1023 undetected_chromedriver + 630819
+5   undetected_chromedriver             0x0000000102c0c7fd undetected_chromedriver + 1005565
+6   undetected_chromedriver             0x0000000102c0c14d undetected_chromedriver + 1003853
+7   undetected_chromedriver             0x0000000102c0df18 undetected_chromedriver + 1011480
+8   undetected_chromedriver             0x0000000102c0dccc undetected_chromedriver + 1010892
+9   undetected_chromedriver             0x0000000102bcced4 undetected_chromedriver + 745172
+10  undetected_chromedriver             0x0000000102bcdc81 undetected_chromedriver + 748673
+11  undetected_chromedriver             0x0000000103157357 undetected_chromedriver + 6554455
+12  undetected_chromedriver             0x000000010315b70f undetected_chromedriver + 6571791
+13  undetected_chromedriver             0x0000000103136faa undetected_chromedriver + 6422442
+14  undetected_chromedriver             0x000000010315c188 undetected_chromedriver + 6574472
+15  undetected_chromedriver             0x00000001031263c0 undetected_chromedriver + 6353856
+16  undetected_chromedriver             0x0000000103184918 undetected_chromedriver + 6740248
+17  undetected_chromedriver             0x0000000103184aac undetected_chromedriver + 6740652
+18  undetected_chromedriver             0x00000001031978e1 undetected_chromedriver + 6818017
+19  libsystem_pthread.dylib             0x00007ff8180e1e4d _pthread_start + 115
+20  libsystem_pthread.dylib             0x00007ff8180dd857 thread_start + 15
+
+2026-05-11 20:23:24,273 - INFO - Starting GVA export...
+2026-05-11 20:23:24,278 - INFO - ====== WebDriver manager ======
+2026-05-11 20:23:25,454 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:23:25,697 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:23:25,823 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/148.0.7778.97/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 20:23:28,247 - INFO - patching driver executable /Users/nissim/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-05-11 20:24:00,223 - ERROR - Export failed: Message: session not created: cannot connect to chrome at 127.0.0.1:50800
+from session not created: This version of ChromeDriver only supports Chrome version 148
+Current browser version is 109.0.5399.0; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   undetected_chromedriver             0x0000000100d07658 undetected_chromedriver + 6854232
+1   undetected_chromedriver             0x0000000100cfecca undetected_chromedriver + 6819018
+2   undetected_chromedriver             0x00000001006eca75 undetected_chromedriver + 453237
+3   undetected_chromedriver             0x0000000100730da9 undetected_chromedriver + 732585
+4   undetected_chromedriver             0x000000010072fbc1 undetected_chromedriver + 728001
+5   undetected_chromedriver             0x0000000100724829 undetected_chromedriver + 682025
+6   undetected_chromedriver             0x000000010077560a undetected_chromedriver + 1013258
+7   undetected_chromedriver             0x0000000100774ccc undetected_chromedriver + 1010892
+8   undetected_chromedriver             0x0000000100733ed4 undetected_chromedriver + 745172
+9   undetected_chromedriver             0x0000000100734c81 undetected_chromedriver + 748673
+10  undetected_chromedriver             0x0000000100cbe357 undetected_chromedriver + 6554455
+11  undetected_chromedriver             0x0000000100cc270f undetected_chromedriver + 6571791
+12  undetected_chromedriver             0x0000000100c9dfaa undetected_chromedriver + 6422442
+13  undetected_chromedriver             0x0000000100cc3188 undetected_chromedriver + 6574472
+14  undetected_chromedriver             0x0000000100c8d3c0 undetected_chromedriver + 6353856
+15  undetected_chromedriver             0x0000000100ceb918 undetected_chromedriver + 6740248
+16  undetected_chromedriver             0x0000000100cebaac undetected_chromedriver + 6740652
+17  undetected_chromedriver             0x0000000100cfe8e1 undetected_chromedriver + 6818017
+18  libsystem_pthread.dylib             0x00007ff8180e1e4d _pthread_start + 115
+19  libsystem_pthread.dylib             0x00007ff8180dd857 thread_start + 15
+
+2026-05-11 20:53:59,767 - INFO - Starting GVA export...
+2026-05-11 20:53:59,768 - INFO - ====== WebDriver manager ======
+2026-05-11 20:54:00,169 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:54:00,397 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:54:00,547 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/148.0.7778.97/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 20:54:01,947 - INFO - patching driver executable /Users/nissim/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-05-11 20:54:07,618 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 20:54:12,006 - INFO - Looking for export link...
+2026-05-11 20:54:22,226 - ERROR - Export failed: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x0000000104fe7658 undetected_chromedriver + 6854232
+1   undetected_chromedriver             0x0000000104fdecca undetected_chromedriver + 6819018
+2   undetected_chromedriver             0x00000001049cca75 undetected_chromedriver + 453237
+3   undetected_chromedriver             0x0000000104a2081b undetected_chromedriver + 796699
+4   undetected_chromedriver             0x0000000104a20b61 undetected_chromedriver + 797537
+5   undetected_chromedriver             0x0000000104a6c6a4 undetected_chromedriver + 1107620
+6   undetected_chromedriver             0x0000000104a697b6 undetected_chromedriver + 1095606
+7   undetected_chromedriver             0x0000000104a13ed4 undetected_chromedriver + 745172
+8   undetected_chromedriver             0x0000000104a14c81 undetected_chromedriver + 748673
+9   undetected_chromedriver             0x0000000104f9e357 undetected_chromedriver + 6554455
+10  undetected_chromedriver             0x0000000104fa270f undetected_chromedriver + 6571791
+11  undetected_chromedriver             0x0000000104f7dfaa undetected_chromedriver + 6422442
+12  undetected_chromedriver             0x0000000104fa3188 undetected_chromedriver + 6574472
+13  undetected_chromedriver             0x0000000104f6d3c0 undetected_chromedriver + 6353856
+14  undetected_chromedriver             0x0000000104fcb918 undetected_chromedriver + 6740248
+15  undetected_chromedriver             0x0000000104fcbaac undetected_chromedriver + 6740652
+16  undetected_chromedriver             0x0000000104fde8e1 undetected_chromedriver + 6818017
+17  libsystem_pthread.dylib             0x00007ff8180e1e4d _pthread_start + 115
+18  libsystem_pthread.dylib             0x00007ff8180dd857 thread_start + 15
+
+2026-05-11 20:54:22,231 - INFO - Closing browser...
+2026-05-11 20:54:22,350 - ERROR - Export failed: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x0000000104fe7658 undetected_chromedriver + 6854232
+1   undetected_chromedriver             0x0000000104fdecca undetected_chromedriver + 6819018
+2   undetected_chromedriver             0x00000001049cca75 undetected_chromedriver + 453237
+3   undetected_chromedriver             0x0000000104a2081b undetected_chromedriver + 796699
+4   undetected_chromedriver             0x0000000104a20b61 undetected_chromedriver + 797537
+5   undetected_chromedriver             0x0000000104a6c6a4 undetected_chromedriver + 1107620
+6   undetected_chromedriver             0x0000000104a697b6 undetected_chromedriver + 1095606
+7   undetected_chromedriver             0x0000000104a13ed4 undetected_chromedriver + 745172
+8   undetected_chromedriver             0x0000000104a14c81 undetected_chromedriver + 748673
+9   undetected_chromedriver             0x0000000104f9e357 undetected_chromedriver + 6554455
+10  undetected_chromedriver             0x0000000104fa270f undetected_chromedriver + 6571791
+11  undetected_chromedriver             0x0000000104f7dfaa undetected_chromedriver + 6422442
+12  undetected_chromedriver             0x0000000104fa3188 undetected_chromedriver + 6574472
+13  undetected_chromedriver             0x0000000104f6d3c0 undetected_chromedriver + 6353856
+14  undetected_chromedriver             0x0000000104fcb918 undetected_chromedriver + 6740248
+15  undetected_chromedriver             0x0000000104fcbaac undetected_chromedriver + 6740652
+16  undetected_chromedriver             0x0000000104fde8e1 undetected_chromedriver + 6818017
+17  libsystem_pthread.dylib             0x00007ff8180e1e4d _pthread_start + 115
+18  libsystem_pthread.dylib             0x00007ff8180dd857 thread_start + 15
+
+2026-05-11 20:56:08,872 - INFO - Starting GVA export...
+2026-05-11 20:56:08,882 - INFO - ====== WebDriver manager ======
+2026-05-11 20:56:10,040 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:56:10,183 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 20:56:10,281 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/148.0.7778.97/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 20:56:15,813 - INFO - patching driver executable /Users/nissim/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-05-11 20:56:23,127 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 20:56:30,973 - INFO - Looking for export link...
+2026-05-11 20:56:41,422 - ERROR - Export failed: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x0000000102b38658 undetected_chromedriver + 6854232
+1   undetected_chromedriver             0x0000000102b2fcca undetected_chromedriver + 6819018
+2   undetected_chromedriver             0x000000010251da75 undetected_chromedriver + 453237
+3   undetected_chromedriver             0x000000010257181b undetected_chromedriver + 796699
+4   undetected_chromedriver             0x0000000102571b61 undetected_chromedriver + 797537
+5   undetected_chromedriver             0x00000001025bd6a4 undetected_chromedriver + 1107620
+6   undetected_chromedriver             0x00000001025ba7b6 undetected_chromedriver + 1095606
+7   undetected_chromedriver             0x0000000102564ed4 undetected_chromedriver + 745172
+8   undetected_chromedriver             0x0000000102565c81 undetected_chromedriver + 748673
+9   undetected_chromedriver             0x0000000102aef357 undetected_chromedriver + 6554455
+10  undetected_chromedriver             0x0000000102af370f undetected_chromedriver + 6571791
+11  undetected_chromedriver             0x0000000102acefaa undetected_chromedriver + 6422442
+12  undetected_chromedriver             0x0000000102af4188 undetected_chromedriver + 6574472
+13  undetected_chromedriver             0x0000000102abe3c0 undetected_chromedriver + 6353856
+14  undetected_chromedriver             0x0000000102b1c918 undetected_chromedriver + 6740248
+15  undetected_chromedriver             0x0000000102b1caac undetected_chromedriver + 6740652
+16  undetected_chromedriver             0x0000000102b2f8e1 undetected_chromedriver + 6818017
+17  libsystem_pthread.dylib             0x00007ff8180e1e4d _pthread_start + 115
+18  libsystem_pthread.dylib             0x00007ff8180dd857 thread_start + 15
+
+2026-05-11 20:56:41,424 - INFO - Closing browser...
+2026-05-11 20:56:41,641 - ERROR - Export failed: Message: 
+Stacktrace:
+0   undetected_chromedriver             0x0000000102b38658 undetected_chromedriver + 6854232
+1   undetected_chromedriver             0x0000000102b2fcca undetected_chromedriver + 6819018
+2   undetected_chromedriver             0x000000010251da75 undetected_chromedriver + 453237
+3   undetected_chromedriver             0x000000010257181b undetected_chromedriver + 796699
+4   undetected_chromedriver             0x0000000102571b61 undetected_chromedriver + 797537
+5   undetected_chromedriver             0x00000001025bd6a4 undetected_chromedriver + 1107620
+6   undetected_chromedriver             0x00000001025ba7b6 undetected_chromedriver + 1095606
+7   undetected_chromedriver             0x0000000102564ed4 undetected_chromedriver + 745172
+8   undetected_chromedriver             0x0000000102565c81 undetected_chromedriver + 748673
+9   undetected_chromedriver             0x0000000102aef357 undetected_chromedriver + 6554455
+10  undetected_chromedriver             0x0000000102af370f undetected_chromedriver + 6571791
+11  undetected_chromedriver             0x0000000102acefaa undetected_chromedriver + 6422442
+12  undetected_chromedriver             0x0000000102af4188 undetected_chromedriver + 6574472
+13  undetected_chromedriver             0x0000000102abe3c0 undetected_chromedriver + 6353856
+14  undetected_chromedriver             0x0000000102b1c918 undetected_chromedriver + 6740248
+15  undetected_chromedriver             0x0000000102b1caac undetected_chromedriver + 6740652
+16  undetected_chromedriver             0x0000000102b2f8e1 undetected_chromedriver + 6818017
+17  libsystem_pthread.dylib             0x00007ff8180e1e4d _pthread_start + 115
+18  libsystem_pthread.dylib             0x00007ff8180dd857 thread_start + 15
+
+2026-05-11 21:25:14,542 - INFO - Starting GVA export...
+2026-05-11 21:25:14,543 - INFO - ====== WebDriver manager ======
+2026-05-11 21:25:22,449 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 21:25:22,722 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 21:25:22,859 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/148.0.7778.97/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 21:25:26,439 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 21:25:29,684 - INFO - Looking for export link...
+2026-05-11 21:25:29,688 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 21:25:29,690 - INFO - Page title: Gun Violence Archive
+2026-05-11 21:25:29,731 - INFO - Page source snippet: <html><head><link href="https://www.gunviolencearchive.org/sites/default/files/favicon.png" rel="shortcut icon" type="image/png"><title>Gun Violence Archive</title><style media="all">@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("data:application/vnd.ms-fontobject;base64,n04AAEFNAAACAAIABAAAAAAABQAAAAAAAAABAJABAAAEAExQAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAJxJ/LAAAAAAAAAAAAAAAAAAAAAAAACgARwBMAFkAUABIAEkAQwBPAE4AUwAgAEgAYQBsAGYAbABpAG4AZwBzAAAADgBSAGUAZwB1AGwAYQByAAAAeABWAGUAcgBzAGkAbwB
+2026-05-11 21:25:40,049 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c9c5b0 cxxbridge1$str$ptr + 3217728
+1   chromedriver                        0x0000000102c94488 cxxbridge1$str$ptr + 3184664
+2   chromedriver                        0x00000001027579f0 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75404
+3   chromedriver                        0x00000001027a0220 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 372412
+4   chromedriver                        0x00000001027df9ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632392
+5   chromedriver                        0x0000000102795c10 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 329900
+6   chromedriver                        0x0000000102c5a1b0 cxxbridge1$str$ptr + 2946368
+7   chromedriver                        0x0000000102c5d90c cxxbridge1$str$ptr + 2960540
+8   chromedriver                        0x0000000102c3f100 cxxbridge1$str$ptr + 2835600
+9   chromedriver                        0x0000000102c5e18c cxxbridge1$str$ptr + 2962716
+10  chromedriver                        0x0000000102c2fbac cxxbridge1$str$ptr + 2772796
+11  chromedriver                        0x0000000102c83258 cxxbridge1$str$ptr + 3114472
+12  chromedriver                        0x0000000102c833b8 cxxbridge1$str$ptr + 3114824
+13  chromedriver                        0x0000000102c940e0 cxxbridge1$str$ptr + 3183728
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 21:25:40,053 - INFO - Closing browser...
+2026-05-11 21:25:40,204 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c9c5b0 cxxbridge1$str$ptr + 3217728
+1   chromedriver                        0x0000000102c94488 cxxbridge1$str$ptr + 3184664
+2   chromedriver                        0x00000001027579f0 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75404
+3   chromedriver                        0x00000001027a0220 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 372412
+4   chromedriver                        0x00000001027df9ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632392
+5   chromedriver                        0x0000000102795c10 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 329900
+6   chromedriver                        0x0000000102c5a1b0 cxxbridge1$str$ptr + 2946368
+7   chromedriver                        0x0000000102c5d90c cxxbridge1$str$ptr + 2960540
+8   chromedriver                        0x0000000102c3f100 cxxbridge1$str$ptr + 2835600
+9   chromedriver                        0x0000000102c5e18c cxxbridge1$str$ptr + 2962716
+10  chromedriver                        0x0000000102c2fbac cxxbridge1$str$ptr + 2772796
+11  chromedriver                        0x0000000102c83258 cxxbridge1$str$ptr + 3114472
+12  chromedriver                        0x0000000102c833b8 cxxbridge1$str$ptr + 3114824
+13  chromedriver                        0x0000000102c940e0 cxxbridge1$str$ptr + 3183728
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 21:32:06,924 - INFO - Starting GVA export...
+2026-05-11 21:32:06,926 - INFO - ====== WebDriver manager ======
+2026-05-11 21:32:08,082 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 21:32:08,278 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 21:32:08,527 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/148.0.7778.97/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 21:32:11,501 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 21:32:14,497 - INFO - Looking for export link...
+2026-05-11 21:32:14,500 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 21:32:14,502 - INFO - Page title: Gun Violence Archive
+2026-05-11 21:32:14,562 - INFO - Page source snippet: <html><head><link href="https://www.gunviolencearchive.org/sites/default/files/favicon.png" rel="shortcut icon" type="image/png"><title>Gun Violence Archive</title><style media="all">@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("data:application/vnd.ms-fontobject;base64,n04AAEFNAAACAAIABAAAAAAABQAAAAAAAAABAJABAAAEAExQAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAJxJ/LAAAAAAAAAAAAAAAAAAAAAAAACgARwBMAFkAUABIAEkAQwBPAE4AUwAgAEgAYQBsAGYAbABpAG4AZwBzAAAADgBSAGUAZwB1AGwAYQByAAAAeABWAGUAcgBzAGkAbwB
+2026-05-11 21:32:14,584 - INFO - Link: https://www.gunviolencearchive.org/
+2026-05-11 21:32:14,588 - INFO - Link: mailto:inquiry@gvadata.org
+2026-05-11 21:32:14,593 - INFO - Link: https://www.gunviolencearchive.org/
+2026-05-11 21:32:14,599 - INFO - Link: mailto:inquiry@gvadata.org
+2026-05-11 21:32:24,891 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ae85b0 cxxbridge1$str$ptr + 3217728
+1   chromedriver                        0x0000000102ae0488 cxxbridge1$str$ptr + 3184664
+2   chromedriver                        0x00000001025a39f0 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75404
+3   chromedriver                        0x00000001025ec220 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 372412
+4   chromedriver                        0x000000010262b9ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632392
+5   chromedriver                        0x00000001025e1c10 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 329900
+6   chromedriver                        0x0000000102aa61b0 cxxbridge1$str$ptr + 2946368
+7   chromedriver                        0x0000000102aa990c cxxbridge1$str$ptr + 2960540
+8   chromedriver                        0x0000000102a8b100 cxxbridge1$str$ptr + 2835600
+9   chromedriver                        0x0000000102aaa18c cxxbridge1$str$ptr + 2962716
+10  chromedriver                        0x0000000102a7bbac cxxbridge1$str$ptr + 2772796
+11  chromedriver                        0x0000000102acf258 cxxbridge1$str$ptr + 3114472
+12  chromedriver                        0x0000000102acf3b8 cxxbridge1$str$ptr + 3114824
+13  chromedriver                        0x0000000102ae00e0 cxxbridge1$str$ptr + 3183728
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 21:32:24,893 - INFO - Closing browser...
+2026-05-11 21:32:25,116 - ERROR - Export failed: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ae85b0 cxxbridge1$str$ptr + 3217728
+1   chromedriver                        0x0000000102ae0488 cxxbridge1$str$ptr + 3184664
+2   chromedriver                        0x00000001025a39f0 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75404
+3   chromedriver                        0x00000001025ec220 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 372412
+4   chromedriver                        0x000000010262b9ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632392
+5   chromedriver                        0x00000001025e1c10 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 329900
+6   chromedriver                        0x0000000102aa61b0 cxxbridge1$str$ptr + 2946368
+7   chromedriver                        0x0000000102aa990c cxxbridge1$str$ptr + 2960540
+8   chromedriver                        0x0000000102a8b100 cxxbridge1$str$ptr + 2835600
+9   chromedriver                        0x0000000102aaa18c cxxbridge1$str$ptr + 2962716
+10  chromedriver                        0x0000000102a7bbac cxxbridge1$str$ptr + 2772796
+11  chromedriver                        0x0000000102acf258 cxxbridge1$str$ptr + 3114472
+12  chromedriver                        0x0000000102acf3b8 cxxbridge1$str$ptr + 3114824
+13  chromedriver                        0x0000000102ae00e0 cxxbridge1$str$ptr + 3183728
+14  libsystem_pthread.dylib             0x000000018cb6bc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018cb66ba8 thread_start + 8
+
+2026-05-11 21:40:49,545 - INFO - Starting GVA export...
+2026-05-11 21:40:49,546 - INFO - ====== WebDriver manager ======
+2026-05-11 21:40:50,749 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 21:40:50,989 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 21:40:51,152 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/148.0.7778.97/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 21:40:54,692 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 21:41:00,415 - INFO - Looking for export link...
+2026-05-11 21:41:00,421 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 21:41:00,425 - INFO - Page title: Gun Violence Archive
+2026-05-11 21:41:00,470 - INFO - Page source snippet: <html><head><link href="https://www.gunviolencearchive.org/sites/default/files/favicon.png" rel="shortcut icon" type="image/png"><title>Gun Violence Archive</title><style media="all">@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("data:application/vnd.ms-fontobject;base64,n04AAEFNAAACAAIABAAAAAAABQAAAAAAAAABAJABAAAEAExQAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAJxJ/LAAAAAAAAAAAAAAAAAAAAAAAACgARwBMAFkAUABIAEkAQwBPAE4AUwAgAEgAYQBsAGYAbABpAG4AZwBzAAAADgBSAGUAZwB1AGwAYQByAAAAeABWAGUAcgBzAGkAbwB
+2026-05-11 21:41:00,491 - INFO - Link: https://www.gunviolencearchive.org/
+2026-05-11 21:41:00,496 - INFO - Link: mailto:inquiry@gvadata.org
+2026-05-11 21:41:00,500 - INFO - Link: https://www.gunviolencearchive.org/
+2026-05-11 21:41:00,503 - INFO - Link: mailto:inquiry@gvadata.org
+2026-05-11 21:41:30,874 - ERROR - Page source: <html><head><link href="https://www.gunviolencearchive.org/sites/default/files/favicon.png" rel="shortcut icon" type="image/png"><title>Gun Violence Archive</title><style media="all">@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("data:application/vnd.ms-fontobject;base64,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
+2026-05-11 21:41:30,876 - ERROR - Export failed: Could not find export link on page
+2026-05-11 21:41:30,876 - INFO - Closing browser...
+2026-05-11 21:41:31,020 - ERROR - Export failed: Could not find export link on page
+2026-05-11 21:44:37,018 - INFO - Starting GVA export...
+2026-05-11 21:44:37,019 - INFO - ====== WebDriver manager ======
+2026-05-11 21:44:37,502 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 21:44:37,627 - INFO - Get LATEST chromedriver version for google-chrome
+2026-05-11 21:44:37,741 - INFO - Driver [/Users/nissim/.wdm/drivers/chromedriver/mac64/148.0.7778.97/chromedriver-mac-arm64/chromedriver] found in cache
+2026-05-11 21:44:40,573 - INFO - Loading reports page for /last-72-hours...
+2026-05-11 21:44:48,607 - INFO - Looking for export link...
+2026-05-11 21:44:48,612 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 21:44:48,615 - INFO - Page title: Gun Violence Archive
+2026-05-11 21:44:48,641 - INFO - Page source snippet: <html><head><link href="https://www.gunviolencearchive.org/sites/default/files/favicon.png" rel="shortcut icon" type="image/png"><title>Gun Violence Archive</title><style media="all">@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("data:application/vnd.ms-fontobject;base64,n04AAEFNAAACAAIABAAAAAAABQAAAAAAAAABAJABAAAEAExQAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAJxJ/LAAAAAAAAAAAAAAAAAAAAAAAACgARwBMAFkAUABIAEkAQwBPAE4AUwAgAEgAYQBsAGYAbABpAG4AZwBzAAAADgBSAGUAZwB1AGwAYQByAAAAeABWAGUAcgBzAGkAbwB
+2026-05-11 21:44:49,226 - INFO - Screenshot saved to debug.png
+2026-05-11 21:44:49,247 - INFO - Link: https://www.gunviolencearchive.org/
+2026-05-11 21:44:49,253 - INFO - Link: mailto:inquiry@gvadata.org
+2026-05-11 21:44:49,257 - INFO - Link: https://www.gunviolencearchive.org/
+2026-05-11 21:44:49,261 - INFO - Link: mailto:inquiry@gvadata.org
+2026-05-11 21:45:19,710 - ERROR - Page source: <html><head><link href="https://www.gunviolencearchive.org/sites/default/files/favicon.png" rel="shortcut icon" type="image/png"><title>Gun Violence Archive</title><style media="all">@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("data:application/vnd.ms-fontobject;base64,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
+2026-05-11 21:45:19,718 - ERROR - Export failed: Could not find export link on page
+2026-05-11 21:45:19,718 - INFO - Closing browser...
+2026-05-11 21:45:20,030 - ERROR - Export failed: Could not find export link on page
+2026-05-11 22:22:01,215 - INFO - Starting GVA export...
+2026-05-11 22:22:01,216 - ERROR - Export failed: Driver() got an unexpected keyword argument 'prefs'
+2026-05-11 22:25:48,355 - INFO - Starting GVA export...
+2026-05-11 22:25:48,357 - ERROR - Export failed: Driver() got an unexpected keyword argument 'options'
+2026-05-11 22:27:18,520 - INFO - Starting GVA export...
+2026-05-11 22:27:18,521 - ERROR - Export failed: Driver() got an unexpected keyword argument 'options'
+2026-05-11 22:29:50,393 - INFO - Starting GVA export...
+2026-05-11 22:30:16,504 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-11 22:30:31,461 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 22:30:31,471 - INFO - Page title: Last 72 Hours | Gun Violence Archive
+2026-05-11 22:30:31,954 - INFO - Screenshot saved to debug.png
+2026-05-11 22:30:31,955 - INFO - Looking for export link...
+2026-05-11 22:30:31,987 - INFO - Found export link: https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv
+2026-05-11 22:30:31,987 - INFO - Clicking export link...
+2026-05-11 22:30:33,312 - INFO - Waiting for export to complete...
+2026-05-11 22:30:33,956 - INFO - Export finished page reached: https://www.gunviolencearchive.org/export-finished?filename=public%3A//export-8e3ed895-d9e0-4650-945e-c4a708f46dc3.csv&uuid=1e1fc646-a270-420e-8b41-3f497794831f&return_href=last-72-hours
+2026-05-11 22:30:33,956 - INFO - Looking for download link...
+2026-05-11 22:30:34,193 - INFO - Downloading file...
+2026-05-11 22:31:34,919 - ERROR - Export failed: Download did not complete within 60s
+2026-05-11 22:31:34,938 - INFO - Closing browser...
+2026-05-11 22:31:35,771 - ERROR - Export failed: Download did not complete within 60s
+2026-05-11 22:37:19,403 - INFO - Starting GVA export...
+2026-05-11 22:37:27,256 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-11 22:38:03,957 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 22:38:03,972 - INFO - Page title: Just a moment...
+2026-05-11 22:38:04,116 - INFO - Screenshot saved to debug.png
+2026-05-11 22:38:04,116 - INFO - Looking for export link...
+2026-05-11 22:38:34,369 - ERROR - Page source: <html dir="ltr"><head><link href="https://www.gunviolencearchive.org/sites/default/files/favicon.png" rel="shortcut icon" type="image/png"><title>Just a moment...</title><style media="all">@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("data:application/vnd.ms-fontobject;base64,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
+2026-05-11 22:38:34,377 - ERROR - Export failed: Could not find export link on page
+2026-05-11 22:38:34,377 - INFO - Closing browser...
+2026-05-11 22:38:34,801 - ERROR - Export failed: Could not find export link on page
+2026-05-11 22:39:00,424 - INFO - Starting GVA export...
+2026-05-11 22:39:07,584 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-11 22:39:23,275 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 22:39:23,282 - INFO - Page title: Last 72 Hours | Gun Violence Archive
+2026-05-11 22:39:23,527 - INFO - Screenshot saved to debug.png
+2026-05-11 22:39:23,527 - INFO - Looking for export link...
+2026-05-11 22:39:23,574 - INFO - Found export link: https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv
+2026-05-11 22:39:23,575 - INFO - Clicking export link...
+2026-05-11 22:39:24,780 - INFO - Waiting for export to complete...
+2026-05-11 22:39:26,556 - INFO - Export finished page reached: https://www.gunviolencearchive.org/export-finished?filename=public%3A//export-9b3c49f7-7663-41be-a003-dbaa443bc4fa.csv&uuid=1e1fc646-a270-420e-8b41-3f497794831f&return_href=last-72-hours
+2026-05-11 22:39:26,556 - INFO - Looking for download link...
+2026-05-11 22:39:26,589 - INFO - Found download link: https://www.gunviolencearchive.org/export-finished/download?uuid=1e1fc646-a270-420e-8b41-3f497794831f&filename=public%3A//export-9b3c49f7-7663-41be-a003-dbaa443bc4fa.csv
+2026-05-11 22:39:26,790 - INFO - Downloading file...
+2026-05-11 22:40:27,311 - INFO - temp_dir contents: []
+2026-05-11 22:40:27,332 - INFO - Default downloads: ['HEC-RAS_2025_Alpha.zip', 'cusp-logo.png', 'looperman-l-3966065-0343690-sza-x-drake-x-noah-40-x-ovo-foolish-pt-1.wav', 'Tut6-5.6-6.6-7.pdf', 'HERO-SLIDER-1-2-1-1.webp']
+2026-05-11 22:40:27,333 - ERROR - Export failed: Download did not complete within 60s
+2026-05-11 22:40:27,333 - INFO - Closing browser...
+2026-05-11 22:40:29,248 - ERROR - Export failed: Download did not complete within 60s
+2026-05-11 22:42:04,840 - INFO - Starting GVA export...
+2026-05-11 22:42:12,988 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-11 22:42:27,379 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 22:42:27,385 - INFO - Page title: Last 72 Hours | Gun Violence Archive
+2026-05-11 22:42:27,603 - INFO - Screenshot saved to debug.png
+2026-05-11 22:42:27,603 - INFO - Looking for export link...
+2026-05-11 22:42:27,662 - INFO - Found export link: https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv
+2026-05-11 22:42:27,662 - INFO - Clicking export link...
+2026-05-11 22:42:28,828 - INFO - Waiting for export to complete...
+2026-05-11 22:42:29,378 - INFO - Export finished page reached: https://www.gunviolencearchive.org/export-finished?filename=public%3A//export-f1735b9d-98c6-464e-8a05-67ffa2e04e28.csv&uuid=1e1fc646-a270-420e-8b41-3f497794831f&return_href=last-72-hours
+2026-05-11 22:42:29,378 - INFO - Looking for download link...
+2026-05-11 22:42:29,406 - INFO - Found download link: https://www.gunviolencearchive.org/export-finished/download?uuid=1e1fc646-a270-420e-8b41-3f497794831f&filename=public%3A//export-f1735b9d-98c6-464e-8a05-67ffa2e04e28.csv
+2026-05-11 22:42:29,581 - INFO - Downloading file...
+2026-05-11 22:42:29,582 - ERROR - Export failed: 'Chrome' object has no attribute 'get_browser_downloads_folder'
+2026-05-11 22:42:29,582 - INFO - Closing browser...
+2026-05-11 22:42:29,746 - ERROR - Export failed: 'Chrome' object has no attribute 'get_browser_downloads_folder'
+2026-05-11 22:43:18,537 - INFO - Starting GVA export...
+2026-05-11 22:43:26,487 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-11 22:43:40,185 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 22:43:40,199 - INFO - Page title: Last 72 Hours | Gun Violence Archive
+2026-05-11 22:43:40,468 - INFO - Screenshot saved to debug.png
+2026-05-11 22:43:40,468 - INFO - Looking for export link...
+2026-05-11 22:43:40,497 - INFO - Found export link: https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv
+2026-05-11 22:43:40,497 - INFO - Clicking export link...
+2026-05-11 22:43:41,625 - INFO - Waiting for export to complete...
+2026-05-11 22:43:42,326 - INFO - Export finished page reached: https://www.gunviolencearchive.org/export-finished?filename=public%3A//export-3a518ad9-af3a-4be9-9d3e-c59b762e7396.csv&uuid=1e1fc646-a270-420e-8b41-3f497794831f&return_href=last-72-hours
+2026-05-11 22:43:42,327 - INFO - Looking for download link...
+2026-05-11 22:43:42,404 - INFO - Found download link: https://www.gunviolencearchive.org/export-finished/download?uuid=1e1fc646-a270-420e-8b41-3f497794831f&filename=public%3A//export-3a518ad9-af3a-4be9-9d3e-c59b762e7396.csv
+2026-05-11 22:43:42,569 - INFO - Downloading file...
+2026-05-11 22:44:42,846 - INFO - temp_dir contents: []
+2026-05-11 22:45:13,125 - ERROR - Export failed: Download did not complete within 60s
+2026-05-11 22:45:13,132 - INFO - Closing browser...
+2026-05-11 22:45:13,840 - ERROR - Export failed: Download did not complete within 60s
+2026-05-11 22:46:14,900 - INFO - Starting GVA export...
+2026-05-11 22:46:25,456 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-11 22:46:52,715 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 22:46:52,725 - INFO - Page title: Last 72 Hours | Gun Violence Archive
+2026-05-11 22:46:52,817 - INFO - Screenshot saved to debug.png
+2026-05-11 22:46:52,817 - INFO - Looking for export link...
+2026-05-11 22:46:52,853 - INFO - Found export link: https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv
+2026-05-11 22:46:52,853 - INFO - Clicking export link...
+2026-05-11 22:46:53,998 - INFO - Waiting for export to complete...
+2026-05-11 22:46:54,656 - INFO - Export finished page reached: https://www.gunviolencearchive.org/export-finished?filename=public%3A//export-fff32ae7-6777-4053-8d4f-8e9de3b64bc7.csv&uuid=1e1fc646-a270-420e-8b41-3f497794831f&return_href=last-72-hours
+2026-05-11 22:46:54,656 - INFO - Looking for download link...
+2026-05-11 22:46:54,717 - INFO - Found download link: https://www.gunviolencearchive.org/export-finished/download?uuid=1e1fc646-a270-420e-8b41-3f497794831f&filename=public%3A//export-fff32ae7-6777-4053-8d4f-8e9de3b64bc7.csv
+2026-05-11 22:46:54,943 - INFO - Downloading file...
+2026-05-11 22:47:55,176 - INFO - temp_dir contents: []
+2026-05-11 22:48:25,588 - ERROR - Export failed: Download did not complete within 60s
+2026-05-11 22:48:25,592 - INFO - Closing browser...
+2026-05-11 22:48:25,910 - ERROR - Export failed: Download did not complete within 60s
+2026-05-11 22:48:31,713 - INFO - Starting GVA export...
+2026-05-11 22:48:38,526 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-11 22:48:56,746 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 22:48:56,759 - INFO - Page title: Just a moment...
+2026-05-11 22:48:56,969 - INFO - Screenshot saved to debug.png
+2026-05-11 22:48:56,969 - INFO - Looking for export link...
+2026-05-11 22:49:18,850 - INFO - Found export link: https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv
+2026-05-11 22:49:18,853 - INFO - Clicking export link...
+2026-05-11 22:49:19,828 - INFO - Waiting for export to complete...
+2026-05-11 22:49:20,532 - INFO - Export finished page reached: https://www.gunviolencearchive.org/export-finished?filename=public%3A//export-c5037a10-d85d-427c-8097-d27a4ffee772.csv&uuid=1e1fc646-a270-420e-8b41-3f497794831f&return_href=last-72-hours
+2026-05-11 22:49:20,533 - INFO - Looking for download link...
+2026-05-11 22:49:20,566 - INFO - Found download link: https://www.gunviolencearchive.org/export-finished/download?uuid=1e1fc646-a270-420e-8b41-3f497794831f&filename=public%3A//export-c5037a10-d85d-427c-8097-d27a4ffee772.csv
+2026-05-11 22:49:20,567 - INFO - Downloading file via requests...
+2026-05-11 22:49:20,577 - ERROR - Export failed: name 'requests' is not defined
+2026-05-11 22:49:20,577 - INFO - Closing browser...
+2026-05-11 22:49:20,769 - ERROR - Export failed: name 'requests' is not defined
+2026-05-11 22:50:29,485 - INFO - Starting GVA export...
+2026-05-11 22:50:36,383 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-11 22:51:01,583 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-11 22:51:01,590 - INFO - Page title: Just a moment...
+2026-05-11 22:51:01,681 - INFO - Screenshot saved to debug.png
+2026-05-11 22:51:01,682 - INFO - Looking for export link...
+2026-05-11 22:51:04,852 - INFO - Found export link: https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv
+2026-05-11 22:51:04,852 - INFO - Clicking export link...
+2026-05-11 22:51:05,777 - INFO - Waiting for export to complete...
+2026-05-11 22:51:06,341 - INFO - Export finished page reached: https://www.gunviolencearchive.org/export-finished?filename=public%3A//export-9884cf8f-7bd7-4e97-a026-e50fab2893a8.csv&uuid=1e1fc646-a270-420e-8b41-3f497794831f&return_href=last-72-hours
+2026-05-11 22:51:06,341 - INFO - Looking for download link...
+2026-05-11 22:51:06,375 - INFO - Found download link: https://www.gunviolencearchive.org/export-finished/download?uuid=1e1fc646-a270-420e-8b41-3f497794831f&filename=public%3A//export-9884cf8f-7bd7-4e97-a026-e50fab2893a8.csv
+2026-05-11 22:51:06,375 - INFO - Downloading file via requests...
+2026-05-11 22:51:06,676 - INFO - File saved: temp/gva_72hr.csv
+2026-05-11 22:51:06,676 - INFO - Closing browser...
+2026-05-11 22:51:06,875 - INFO - Export complete: temp/gva_72hr.csv
+2026-05-12 00:29:41,948 - INFO - Starting data update process
+2026-05-12 00:29:41,954 - INFO - Downloading latest 72-hour data...
+2026-05-12 00:29:45,548 - INFO - Starting GVA export...
+2026-05-12 00:30:00,924 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-12 00:30:26,720 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-12 00:30:27,758 - INFO - Page title: Last 72 Hours | Gun Violence Archive
+2026-05-12 00:30:29,282 - INFO - Screenshot saved to debug.png
+2026-05-12 00:30:29,285 - INFO - Looking for export link...
+2026-05-12 00:30:29,408 - INFO - Found export link: https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv
+2026-05-12 00:30:29,409 - INFO - Clicking export link...
+2026-05-12 00:30:32,017 - INFO - Waiting for export to complete...
+2026-05-12 00:30:32,045 - INFO - Export finished page reached: https://www.gunviolencearchive.org/export-finished?filename=public%3A//export-0ee7a18d-35f4-468b-9332-76cb5a0b32e9.csv&uuid=1e1fc646-a270-420e-8b41-3f497794831f&return_href=last-72-hours
+2026-05-12 00:30:32,045 - INFO - Looking for download link...
+2026-05-12 00:30:32,122 - INFO - Found download link: https://www.gunviolencearchive.org/export-finished/download?uuid=1e1fc646-a270-420e-8b41-3f497794831f&filename=public%3A//export-0ee7a18d-35f4-468b-9332-76cb5a0b32e9.csv
+2026-05-12 00:30:32,123 - INFO - Downloading file via requests...
+2026-05-12 00:30:32,617 - INFO - File saved: temp/gva_72hr.csv
+2026-05-12 00:30:32,618 - INFO - Closing browser...
+2026-05-12 00:30:33,472 - INFO - Export complete: temp/gva_72hr.csv
+2026-05-12 00:30:36,637 - INFO - Found downloaded file: temp/gva_72hr.csv
+2026-05-12 00:30:36,640 - INFO - Comparing data with master file...
+2026-05-12 00:30:36,701 - INFO - Found 200 new incidents
+2026-05-12 00:30:36,701 - INFO - Geocoding 200 new incidents...
+2026-05-12 00:34:24,158 - INFO - Geocoding complete: 200 incidents
+2026-05-12 00:34:24,577 - INFO - Adding 200 new incidents to master file...
+2026-05-12 00:34:24,786 - INFO - Updated master file: 200 new incidents added
+2026-05-12 00:34:24,789 - INFO - Cleaning up temporary files...
+2026-05-12 00:34:24,790 - INFO - Cleanup completed
+2026-05-12 00:34:25,382 - INFO - Update completed - 200 new incidents added, 6071 total
+2026-05-12 00:34:25,383 - INFO - Update completed
+2026-05-12 14:46:59,052 - INFO - Starting data update process
+2026-05-12 14:46:59,052 - INFO - Downloading latest 72-hour data...
+2026-05-12 14:47:00,113 - INFO - Starting GVA export...
+2026-05-12 14:47:14,299 - INFO - Loading https://www.gunviolencearchive.org/last-72-hours...
+2026-05-12 14:47:28,607 - INFO - Current URL: https://www.gunviolencearchive.org/last-72-hours
+2026-05-12 14:47:28,628 - INFO - Page title: Last 72 Hours | Gun Violence Archive
+2026-05-12 14:47:28,773 - INFO - Screenshot saved to debug.png
+2026-05-12 14:47:28,774 - INFO - Looking for export link...
+2026-05-12 14:47:28,795 - INFO - Found export link: https://www.gunviolencearchive.org/query/1e1fc646-a270-420e-8b41-3f497794831f/export-csv
+2026-05-12 14:47:28,795 - INFO - Clicking export link...
+2026-05-12 14:47:29,742 - INFO - Waiting for export to complete...
+2026-05-12 14:47:30,345 - INFO - Export finished page reached: https://www.gunviolencearchive.org/export-finished?filename=public%3A//export-afcc3255-9694-4169-b956-cec930ff3aa5.csv&uuid=1e1fc646-a270-420e-8b41-3f497794831f&return_href=last-72-hours
+2026-05-12 14:47:30,345 - INFO - Looking for download link...
+2026-05-12 14:47:30,369 - INFO - Found download link: https://www.gunviolencearchive.org/export-finished/download?uuid=1e1fc646-a270-420e-8b41-3f497794831f&filename=public%3A//export-afcc3255-9694-4169-b956-cec930ff3aa5.csv
+2026-05-12 14:47:30,369 - INFO - Downloading file via requests...
+2026-05-12 14:47:30,629 - INFO - File saved: temp/gva_72hr.csv
+2026-05-12 14:47:30,629 - INFO - Closing browser...
+2026-05-12 14:47:30,779 - INFO - Export complete: temp/gva_72hr.csv
+2026-05-12 14:47:31,274 - INFO - Found downloaded file: temp/gva_72hr.csv
+2026-05-12 14:47:31,276 - INFO - Comparing data with master file...
+2026-05-12 14:47:31,345 - INFO - Found 0 new incidents
+2026-05-12 14:47:31,347 - INFO - No new incidents to add - master file is up to date
+2026-05-12 14:47:31,347 - INFO - Cleaning up temporary files...
+2026-05-12 14:47:31,348 - INFO - Cleanup completed
+2026-05-12 14:47:31,412 - INFO - Update completed - 0 new incidents added, 6071 total
+2026-05-12 14:47:31,413 - INFO - Update completed

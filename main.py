@@ -79,31 +79,25 @@ def geocode_incidents(incidents: List[Dict], logger: logging.Logger) -> List[Dic
         return incidents
 
 
-def download_latest_data(year: int, logger: logging.Logger, exporter_script: str = 'export_gva.py') -> str | None:
-    """Download latest data for the specified year using the exporter."""
-    logger.info(f"Downloading latest {year} mass shooting data...")
+def download_latest_data(logger: logging.Logger, exporter_script: str = 'pull_72_hours.py') -> str | None:
+    """Download latest data using the exporter."""
+    logger.info("Downloading latest 72-hour data...")
     
     try:
         result = subprocess.run([
-            sys.executable, exporter_script, 
-            '--year', str(year)
+            sys.executable, exporter_script,
+            '--out-dir', 'temp',
+            '--prefix', 'gva_72hr',
+            '--overwrite',
         ], capture_output=True, text=True, timeout=300)
         
         if result.returncode == 0:
-            data_dir = 'temp'
-            if not os.path.exists(data_dir):
-                logger.error(f"Data directory not found: {data_dir}")
-                return None
-            
-            files = [f for f in os.listdir(data_dir) 
-                     if f.startswith(f'gvatemp_{year}_') and f.endswith('.csv')]
-            
-            if files:
-                latest_file = max(files, key=lambda f: os.path.getmtime(os.path.join(data_dir, f)))
-                logger.info(f"Found downloaded file: {latest_file}")
-                return os.path.join(data_dir, latest_file)
+            target = os.path.join('temp', 'gva_72hr.csv')
+            if os.path.exists(target):
+                logger.info(f"Found downloaded file: {target}")
+                return target
             else:
-                logger.error("No temp files found")
+                logger.error("Expected file temp/gva_72hr.csv not found")
                 return None
         else:
             logger.error(f"Download failed: {result.stderr}")
@@ -130,9 +124,24 @@ def read_ids(filepath: str, logger: logging.Logger) -> Set[str]:
         logger.error(f"Error reading {filepath}: {e}")
     return incident_ids
 
+def is_in_nyc(temp_csv):
+    records_in_nyc = []
+    # sometimes things are spelled differently e.g.s Queens vs Corona (Queens)
+    boroughs = ["Brooklyn", "Queens", "Staten Island", "Manhattan", "Bronx"]
+    with open(temp_csv, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            row_state = row.get("State", "")
+            row_county = row.get("City or County", "")  # default to "" to avoid None crash
+            contains_borough = any(borough in row_county for borough in boroughs)
+            if row_state == "New York" and contains_borough:
+                records_in_nyc.append(row)
+    return records_in_nyc 
+
+
 
 def find_new_incidents(temp_csv: str, master_file: str, logger: logging.Logger) -> List[Dict]:
-    """Compare temp download with master file and return new incidents that need to be added."""
+    """Compare temp download with master file and return new incidents."""
     logger.info("Comparing data with master file...")
     
     if not os.path.exists(master_file):
@@ -143,9 +152,8 @@ def find_new_incidents(temp_csv: str, master_file: str, logger: logging.Logger) 
     new_incidents = []
     
     try:
-        with open(temp_csv, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            for row in reader:
+            nyc_rows = is_in_nyc(temp_csv)
+            for row in nyc_rows:
                 incident_id = row.get('Incident ID', '').strip()
                 if incident_id and incident_id not in existing_ids:
                     row.setdefault('latitude', '')
@@ -194,7 +202,7 @@ def update_master_file(new_incidents: List[Dict], master_file: str, logger: logg
             for incident in existing_data:
                 writer.writerow(incident)
         
-        logger.info(f"Updated master file: {len(new_incidents)} new incidents")
+        logger.info(f"Updated master file: {len(new_incidents)} new incidents added")
         return True
         
     except Exception as e:
@@ -203,37 +211,26 @@ def update_master_file(new_incidents: List[Dict], master_file: str, logger: logg
 
 
 def cleanup_temp_files(logger: logging.Logger):
-    """Clean up all temporary downloaded files, keeping only the master file."""
+    """Clean up temporary downloaded files."""
     logger.info("Cleaning up temporary files...")
     
     try:
-        if os.path.exists('data'):
-            for filename in os.listdir('data'):
-                if (filename.startswith('gvatemp_') and 
-                    filename.endswith('.csv') and 
-                    filename != 'gva_master.csv'):
-                    os.remove(os.path.join('data', filename))
-        
         if os.path.exists('temp'):
             for filename in os.listdir('temp'):
-                if (filename.startswith('gvatemp_') and filename.endswith('.csv')):
+                if filename.startswith('gva_72hr') and filename.endswith('.csv'):
                     os.remove(os.path.join('temp', filename))
-        
         logger.info("Cleanup completed")
     except Exception as e:
         logger.error(f"Cleanup error: {e}")
 
 
-def run_automation(logger: logging.Logger, year: int = None, exporter_script: str = 'export_gva.py') -> bool:
+def run_automation(logger: logging.Logger, exporter_script: str = 'pull_72_hours.py') -> bool:
     """Run the complete automation process."""
-    if year is None:
-        year = dt.datetime.now().year
-    
     logger.info("Starting data update process")
     
-    master_file = 'data/gva_master.csv'
+    master_file = 'data/gva_master_72.csv'
     
-    temp_csv = download_latest_data(year, logger, exporter_script)
+    temp_csv = download_latest_data(logger, exporter_script)
     if not temp_csv:
         return False
     
@@ -254,8 +251,7 @@ def run_automation(logger: logging.Logger, year: int = None, exporter_script: st
 def main():
     logger = start_log()
     try:
-        current_year = dt.datetime.now().year
-        success = run_automation(logger, current_year)
+        success = run_automation(logger)
         if success:
             logger.info("Update completed")
             sys.exit(0)
